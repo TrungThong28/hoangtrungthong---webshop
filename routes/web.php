@@ -24,6 +24,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function ()
 //Trang Banner
     Route::resource('banner', 'BannerController');
 
+//QL brand
+    Route::resource('brand', 'BrandController');
+
+//Ql vendor
+    Route::resource('vendor', 'VendorController');
 });
 
 
